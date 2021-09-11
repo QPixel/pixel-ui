@@ -1,0 +1,27 @@
+{
+  "name": "@qpixel/ui",
+  "version": "1.0.0",
+  "description": "A shared-ui kit made for easy bootstrapping of websites.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qpixel/pixel-ui.git"
+  },
+  "author": "QPixel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qpixel/pixel-ui/issues"
+  },
+  "homepage": "https://github.com/qpixel/pixel-ui#readme",
+  "devDependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "react": "^17.0.2",
+    "twin.macro": "^2.7.0"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "react": "^17.0.2",
+    "twin.macro": "^2.7.0"
+  }
+}
