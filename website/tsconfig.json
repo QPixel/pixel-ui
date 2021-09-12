@@ -9,6 +9,7 @@
     "lib": ["dom", "es2017"],
     "module": "esnext",
     "moduleResolution": "node",
+    "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -16,7 +17,7 @@
     "target": "esnext",
     "jsxImportSource": "@emotion/react"
   },
-  "exclude": ["node_modules", "website", "**/*-stories.tsx", "**/stories/"],
-  "files": ["types/twin.d.ts"],
-  "include": ["**/*.ts", "**/*.tsx", "types/twin.d.ts"],
+  "exclude": ["node_modules"],
+  "files": ["src/twin.d.ts"],
+  "include": ["**/*.ts", "**/*.tsx"]
 }
